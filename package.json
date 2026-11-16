@@ -1,0 +1,22 @@
+{
+  "name": "shattered-ancients-fp-moba",
+  "private": true,
+  "version": "1.0.0",
+  "description": "РАСКОЛ ДРЕВНИХ (Shattered Ancients) — 3D MOBA 5v5 от первого лица в духе Dota 2 и Mobile Legends с PBR-графикой, постпроцессингом, 6 культовыми героями, 3 линиями, джунглями, Титаном Разлома и поддержкой ПК + смартфонов",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5174",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4174",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8"
+  }
+}
